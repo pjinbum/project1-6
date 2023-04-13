@@ -37,22 +37,22 @@ const JuyoHengSA = () => {
         onSlideChange={() => console.log('slide change')}
       >
         <SwiperSlide>
-          <img  style={{width :'430px' , height:'230px' }} src="북토크.png" alt="" />
+          <img  style={{width :'430px' , height:'230px' }} src="/box3image/북토크.png" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img style={{width :'430px' , height:'230px' }} src="대전시티투어.jpg" alt="" />
+          <img style={{width :'430px' , height:'230px' }} src="/box3image/대전시티투어.jpg" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img style={{width :'430px' , height:'230px' }} src="마스크해제.png" alt="" />
+          <img style={{width :'430px' , height:'230px' }} src="/box3image/마스크해제.png" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img style={{width :'430px' , height:'230px' }} src="식목일 행사.png" alt="" />
+          <img style={{width :'430px' , height:'230px' }} src="/box3image/식목일 행사.png" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img style={{width :'430px' , height:'230px' }} src="자동차 탄소중립포인트.jpg" alt="" />
+          <img style={{width :'430px' , height:'230px' }} src="/box3image/자동차 탄소중립포인트.jpg" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img style={{width :'430px' , height:'230px' }} src="정부풀연연구기관.jpg" alt="" />
+          <img style={{width :'430px' , height:'230px' }} src="/box3image/정부풀연연구기관.jpg" alt="" />
         </SwiperSlide>
       
         ...

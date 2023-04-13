@@ -26,7 +26,7 @@ const MinwonList = () => {
           </div>
           <div>
              <button style={{border:'none',backgroundColor:'transparent',marginLeft:'250px' ,fontWeight:'bold'}}>
-              서비스 전체보기 <img style={{width:'12px'}} src="enlargement-icon.png" alt="big" />
+              서비스 전체보기 <img style={{width:'12px'}} src="/box3image/enlargement-icon.png" alt="big" />
              </button>
           </div>
         </div>
@@ -43,58 +43,58 @@ const MinwonList = () => {
         onSlideChange={() => console.log('slide change')}
       >
         <SwiperSlide>
-          <img style={{width:'80px'}} src="service (4).png" alt="1" />
+          <img style={{width:'80px'}} src="/box3image/service (4).png" alt="1" />
         </SwiperSlide>
         <SwiperSlide>
-          <img style={{width:'80px'}} src="service (5).png" alt="2" />
+          <img style={{width:'80px'}} src="/box3image/service (5).png" alt="2" />
         </SwiperSlide>
         <SwiperSlide>
-          <img style={{width:'80px'}} src="service (6).png" alt="3" />
+          <img style={{width:'80px'}} src="/box3image/service (6).png" alt="3" />
         </SwiperSlide>
         <SwiperSlide>
-          <img style={{width:'80px'}} src="service (7).png" alt="4" />
+          <img style={{width:'80px'}} src="/box3image/service (7).png" alt="4" />
         </SwiperSlide>
         <SwiperSlide>
-          <img style={{width:'80px'}} src="service (8).png" alt="5" />
+          <img style={{width:'80px'}} src="/box3image/service (8).png" alt="5" />
         </SwiperSlide>
         <SwiperSlide>
-          <img style={{width:'80px'}} src="service (9).png" alt="6" />
+          <img style={{width:'80px'}} src="/box3image/service (9).png" alt="6" />
         </SwiperSlide>
         <SwiperSlide>
-          <img style={{width:'80px'}} src="service (10).png" alt="7" />
+          <img style={{width:'80px'}} src="/box3image/service (10).png" alt="7" />
         </SwiperSlide>
         <SwiperSlide>
-          <img style={{width:'80px'}} src="service (11).png" alt="8" />
+          <img style={{width:'80px'}} src="/box3image/service (11).png" alt="8" />
         </SwiperSlide>
         <SwiperSlide>
-          <img style={{width:'80px'}} src="service (12).png" alt="9" />
+          <img style={{width:'80px'}} src="/box3image/service (12).png" alt="9" />
         </SwiperSlide>
         <SwiperSlide>
-          <img style={{width:'80px'}} src="service (13).png" alt="10" />
+          <img style={{width:'80px'}} src="/box3image/service (13).png" alt="10" />
         </SwiperSlide>
         <SwiperSlide>
-          <img style={{width:'80px'}} src="service (14).png" alt="11" />
+          <img style={{width:'80px'}} src="/box3image/service (14).png" alt="11" />
         </SwiperSlide>
         <SwiperSlide>
-          <img style={{width:'80px'}} src="service (15).png" alt="12" />
+          <img style={{width:'80px'}} src="/box3image/service (15).png" alt="12" />
         </SwiperSlide>
         <SwiperSlide>
-          <img style={{width:'80px'}} src="service (16).png" alt="13" />
+          <img style={{width:'80px'}} src="/box3image/service (16).png" alt="13" />
         </SwiperSlide>
         <SwiperSlide>
-          <img style={{width:'80px'}} src="service (17).png" alt="14" />
+          <img style={{width:'80px'}} src="/box3image/service (17).png" alt="14" />
         </SwiperSlide>
         <SwiperSlide>
-          <img style={{width:'80px'}} src="service (18).png" alt="15" />
+          <img style={{width:'80px'}} src="/box3image/service (18).png" alt="15" />
         </SwiperSlide>
         <SwiperSlide>
-          <img style={{width:'80px'}} src="service (19).png" alt="16" />
+          <img style={{width:'80px'}} src="/box3image/service (19).png" alt="16" />
         </SwiperSlide>
         <SwiperSlide>
-          <img style={{width:'80px'}} src="service (20).png" alt="17" />
+          <img style={{width:'80px'}} src="/box3image/service (20).png" alt="17" />
         </SwiperSlide>
         <SwiperSlide>
-          <img style={{width:'80px'}} src="service (21).png" alt="18" />
+          <img style={{width:'80px'}} src="/box3image/service (21).png" alt="18" />
         </SwiperSlide>
       
       

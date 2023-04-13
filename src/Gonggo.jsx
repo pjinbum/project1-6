@@ -40,10 +40,10 @@ const Gonggo = () => {
             </div >
             <div style={{ display:'flex',height :'30px' , marginRight : '60px'}}>
               <button style={{ border :'none' ,backgroundColor:'transparent'}}>
-                  <img style={{width : '30px' , height :'30px'}} src="btn-left.png" alt="left" />
+                  <img style={{width : '30px' , height :'30px'}} src="/box3image/btn-left.png" alt="left" />
               </button>
               <button style={{ border :'none' ,backgroundColor:'transparent' , marginRight :'10px'}}>
-                  <img style={{width : '30px' , height :'30px' }} src="btn-right.png" alt="right" />
+                  <img style={{width : '30px' , height :'30px' }} src="/box3image/btn-right.png" alt="right" />
               </button>
               <button style={{borderRadius :'30px' , height :'30px'}}> + 더보기</button>
             </div>
