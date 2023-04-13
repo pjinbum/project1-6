@@ -1,6 +1,16 @@
 import React from 'react'
 import { useState } from 'react'
 import './Gonggo.css'
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+
 
 const Gonggo = () => {
   
@@ -39,27 +49,111 @@ const Gonggo = () => {
             </div>
           </div>
           <div style={{display : 'flex' , marginTop : '20px'}}>
-              <div className='gonggo-box1'>
+
+
+          <Swiper
+      // install Swiper modules
+      modules={[Navigation, Pagination, Scrollbar, A11y]}
+      spaceBetween={25}
+      slidesPerView={3}
+      navigation
+      pagination={{ clickable: true }}
+      scrollbar={{ draggable: true }}
+      onSwiper={(swiper) => console.log(swiper)}
+      onSlideChange={() => console.log('slide change')}
+    >
+      <SwiperSlide>
+      <div className='gonggo-box1'>
                   <div style={{position : 'relative',marginLeft : '20px', marginTop : '20px'}}>
                       <p className='gesifan-span'>2023 시민정원사 양성 초급과정 <br></br>모집완료</p>
                       <p>2023-03-27</p>
       
                   </div>
               </div>
-              <div style={{marginLeft : '10px'}} className='gonggo-box1'>
+      </SwiperSlide>
+      <SwiperSlide>
+      <div style={{marginLeft : '10px'}} className='gonggo-box1'>
               <div style={{position : 'relative',marginLeft : '20px' , marginTop : '20px'}}>
                       <p className='gesifan-span'>미세먼지(PM-10) 주의보 발령 해제<br></br>(대전 전지역)</p>
                       <p>2023-03-27</p>
       
                   </div>
               </div>
-              <div style={{marginLeft : '10px'}} className='gonggo-box1'>
+      </SwiperSlide>
+      <SwiperSlide>
+      <div style={{marginLeft : '10px'}} className='gonggo-box1'>
               <div style={{position : 'relative',marginLeft : '20px' , marginTop : '20px'}}>
                       <p className='gesifan-span'>2023년 청년도전 지원사업<br></br>참여자 모집</p>
                       <p>2023-03-27</p>
       
                   </div>
               </div>
+      </SwiperSlide>
+      <SwiperSlide>
+      <div style={{marginLeft : '10px'}} className='gonggo-box1'>
+              <div style={{position : 'relative',marginLeft : '20px' , marginTop : '20px'}}>
+                      <p className='gesifan-span'>2023년 청년도전 지원사업<br></br>참여자 모집</p>
+                      <p>2023-03-27</p>
+      
+                  </div>
+              </div>
+      </SwiperSlide>
+      <SwiperSlide>
+      <div style={{marginLeft : '10px'}} className='gonggo-box1'>
+              <div style={{position : 'relative',marginLeft : '20px' , marginTop : '20px'}}>
+                      <p className='gesifan-span'>2023년 청년도전 지원사업<br></br>참여자 모집</p>
+                      <p>2023-03-27</p>
+      
+                  </div>
+              </div>
+      </SwiperSlide>
+      <SwiperSlide>
+      <div style={{marginLeft : '10px'}} className='gonggo-box1'>
+              <div style={{position : 'relative',marginLeft : '20px' , marginTop : '20px'}}>
+                      <p className='gesifan-span'>2023년 청년도전 지원사업<br></br>참여자 모집</p>
+                      <p>2023-03-27</p>
+      
+                  </div>
+              </div>
+      </SwiperSlide>
+      <SwiperSlide>
+      <div style={{marginLeft : '10px'}} className='gonggo-box1'>
+              <div style={{position : 'relative',marginLeft : '20px' , marginTop : '20px'}}>
+                      <p className='gesifan-span'>2023년 청년도전 지원사업<br></br>참여자 모집</p>
+                      <p>2023-03-27</p>
+      
+                  </div>
+              </div>
+      </SwiperSlide>
+      <SwiperSlide>
+      <div style={{marginLeft : '10px'}} className='gonggo-box1'>
+              <div style={{position : 'relative',marginLeft : '20px' , marginTop : '20px'}}>
+                      <p className='gesifan-span'>2023년 청년도전 지원사업<br></br>참여자 모집</p>
+                      <p>2023-03-27</p>
+      
+                  </div>
+              </div>
+      </SwiperSlide>
+      <SwiperSlide>
+      <div style={{marginLeft : '10px'}} className='gonggo-box1'>
+              <div style={{position : 'relative',marginLeft : '20px' , marginTop : '20px'}}>
+                      <p className='gesifan-span'>2023년 청년도전 지원사업<br></br>참여자 모집</p>
+                      <p>2023-03-27</p>
+      
+                  </div>
+              </div>
+      </SwiperSlide>
+      ...
+    </Swiper>
+
+
+
+
+
+
+             
+             
+             
           </div>
       </div>
     </div>
