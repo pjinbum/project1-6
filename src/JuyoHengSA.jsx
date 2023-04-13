@@ -13,18 +13,18 @@ import 'swiper/css/scrollbar';
 
 const JuyoHengSA = () => {
   return (
-    <div style={{display :'flex' ,justifyContent :'center'}}>
+    <div style={{display :'flex' ,justifyContent :'center', marginTop :'50px' }}>
       <div >
-          <div><p>주요행사안내</p></div>
-          <div style={{display : 'flex' , alignItems : 'center'}}>
+          <div><p style={{width:'120px',height:'30px',borderRadius : '30px' , fontWeight :'bold',backgroundColor :'#ebf6fc',display :'flex' ,justifyContent:'center', alignItems :'center' ,marginLeft:'70px'}}>주요행사안내</p></div>
+          <div style={{display : 'flex' , alignItems : 'center' , marginTop :'-30px'}}>
               <div style={{width:'400px', textAlign : 'right'}}>
-                  <p>즐거움을 <strong>대전과 함께!</strong></p>
+                  <p style={{fontSize :'32px'}}>즐거움을 <strong>대전과 함께!</strong></p>
                   <p>대전시민들을 위해 준비한 소소한 행복</p>
                   <p>4월 한 달도 시민들과 <strong>함께하는 대전</strong></p>
                   <p>함께해서 더 따뜻한 <strong>지역사회 소통공간, 대전</strong></p>
-                  <button>자세히보기</button>
+                  <button style={{backgroundColor :'#fff'}}>자세히보기</button>
               </div>
-              <div style={{width :'400px' , height:'200px' , margin :'30px'}}>
+              <div style={{width :'430px' , height:'230px' , margin :'30px'}}>
               <Swiper
         // install Swiper modules
         modules={[Navigation, Pagination, Scrollbar, A11y]}
@@ -37,22 +37,22 @@ const JuyoHengSA = () => {
         onSlideChange={() => console.log('slide change')}
       >
         <SwiperSlide>
-          <img  style={{width :'400px' , height:'200px' }} src="북토크.png" alt="" />
+          <img  style={{width :'430px' , height:'230px' }} src="북토크.png" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img style={{width :'400px' , height:'200px' }} src="대전시티투어.jpg" alt="" />
+          <img style={{width :'430px' , height:'230px' }} src="대전시티투어.jpg" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img style={{width :'400px' , height:'200px' }} src="마스크해제.png" alt="" />
+          <img style={{width :'430px' , height:'230px' }} src="마스크해제.png" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img style={{width :'400px' , height:'200px' }} src="식목일 행사.png" alt="" />
+          <img style={{width :'430px' , height:'230px' }} src="식목일 행사.png" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img style={{width :'400px' , height:'200px' }} src="자동차 탄소중립포인트.jpg" alt="" />
+          <img style={{width :'430px' , height:'230px' }} src="자동차 탄소중립포인트.jpg" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img style={{width :'400px' , height:'200px' }} src="정부풀연연구기관.jpg" alt="" />
+          <img style={{width :'430px' , height:'230px' }} src="정부풀연연구기관.jpg" alt="" />
         </SwiperSlide>
       
         ...

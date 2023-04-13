@@ -15,18 +15,18 @@ const MinwonList = () => {
     <div style={{display:'flex' , justifyContent :'center'}}>
       <div>
         <div>
-          민원안내
+          <p style={{width:'120px',height:'30px',borderRadius : '30px' , fontWeight :'bold',backgroundColor :'#ebf6fc',display :'flex' ,justifyContent:'center', alignItems :'center' ,marginLeft:'120px'}}>민원안내</p>
         </div>
         <div>
-          <p>대전광역시 민원 서비스</p>
+          <p style={{fontSize :'32px', marginLeft :'125px'}}>대전광역시 <strong>민원 서비스</strong></p>
         </div>
-        <div style={{display : 'flex' , alignItems : 'center'}}>
+        <div style={{display : 'flex' ,  marginTop:'-40px',alignItems:'center' }}>
           <div>
-             <p>내게 필요한 민원 / 생활 / 해택 정보를 확인하세요</p>
-         </div>
+             <p style={{fontWeight :'bold' , fontSize:'20px',marginLeft:'125px'}}>내게 필요한 민원 / 생활 / 해택 정보를 확인하세요</p>
+          </div>
           <div>
-             <button>
-              서비스 전체보기
+             <button style={{border:'none',backgroundColor:'transparent',marginLeft:'250px' ,fontWeight:'bold'}}>
+              서비스 전체보기 <img style={{width:'12px'}} src="enlargement-icon.png" alt="big" />
              </button>
           </div>
         </div>

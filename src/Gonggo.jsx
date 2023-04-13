@@ -11,7 +11,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
-
+ 
 const Gonggo = () => {
   
    const gonggolist = ['시정소식' , '시험정도' , '행사안내' , '고시' , '공고']
@@ -19,7 +19,7 @@ const Gonggo = () => {
     
   return (
     <div style={{display:'flex' , justifyContent :'center'}}>
-      <div style={{width : '1000px' }}>
+      <div style={{width : '800px' }}>
           <div style={{display : 'flex' , justifyContent : 'space-between' , alignItems:'center'}}>
             <div>
               <ul className='gonggolist-menulist'>
@@ -53,12 +53,12 @@ const Gonggo = () => {
 
           <Swiper
       // install Swiper modules
-      modules={[Navigation, Pagination, Scrollbar, A11y]}
-      spaceBetween={25}
+      modules={[Navigation, Pagination,  A11y]}
+      spaceBetween={20}
       slidesPerView={3}
       navigation
       pagination={{ clickable: true }}
-      scrollbar={{ draggable: true }}
+      // scrollbar={{ draggable: true }}
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log('slide change')}
     >
@@ -143,7 +143,7 @@ const Gonggo = () => {
                   </div>
               </div>
       </SwiperSlide>
-      ...
+
     </Swiper>
 
 
